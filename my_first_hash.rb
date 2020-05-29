@@ -1,11 +1,10 @@
 def my_hash
-  # use the literal constructor to set the variable, my_hash, equal to a hash with key/value pairs of your choice.
   my_hash = { "name" => "Michael Harris", "age" => "25", "favorite_color" => "Blue" }
+  return my_hash
 end
 
-
 def shipping_manifest
-  shipping_manifest = { "whale bone corsets" => "5", "porcelain vases" => "2", "oil paintings" => "3" }
+  the_manifest = { "whale bone corsets" => "5", "porcelain vases" => "2", "oil paintings" => "3" }
 end
 
 def retrieval
@@ -25,5 +24,5 @@ def adding
                  }
   shipping_manifest["muskets"] = 2
   shipping_manifest["gun powder"] = 4
-  return shipping_manifest
+  shipping_manifest
 end
