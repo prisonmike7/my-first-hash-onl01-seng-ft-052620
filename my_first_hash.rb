@@ -1,10 +1,10 @@
 def my_hash
-  my_hash = { "name" => "Michael Harris", "age" => "25", "favorite_color" => "Blue" }
+  my_hash = { "name" => "Michael Harris", "age" => 25, "favorite_color" => "Blue" }
   return my_hash
 end
 
 def shipping_manifest
-  the_manifest = { "whale bone corsets" => "5", "porcelain vases" => "2", "oil paintings" => "3" }
+  the_manifest = { "whale bone corsets" => 5, "porcelain vases" => 2, "oil paintings" => 3 }
   the_manifest
 end
 
